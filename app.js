@@ -15,6 +15,9 @@ btn.addEventListener('click', (e) => {
 	}
 	ourRequest.send();
 	pageCounter++;
+	if(pageCounter > 3){
+		button.style.display = 'none';
+	}
 });
 
 
